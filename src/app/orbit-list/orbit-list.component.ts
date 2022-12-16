@@ -10,6 +10,8 @@ import { Satellite } from '../satellite';
 export class OrbitListComponent implements OnInit {
 
   @Input() satellites: Satellite[];
+	warningColor: string = 'test';
+
   constructor() { }
 
   ngOnInit() {
